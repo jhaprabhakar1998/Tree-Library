@@ -79,7 +79,6 @@ public:
 
 int main(){
 	binary_tree<int> intTree;
-	// intTree.restricatedData=-1;
 	intTree.levelWiseInput();
 	intTree.printTree();
 	cout<<endl<<endl<<endl;
