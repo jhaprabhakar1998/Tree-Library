@@ -79,7 +79,7 @@ public:
 
 int main(){
 	binary_tree<int> intTree;
-	intTree.levelWiseInput();
+	intTree.levelWiseInput();//Taking input in levelWise Manner. If there is no node than put restricatedData there to indicate that there is no node.
 	intTree.printTree();
 	cout<<endl<<endl<<endl;
 	intTree.printTree(intTree.root);
